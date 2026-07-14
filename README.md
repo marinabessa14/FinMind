@@ -44,8 +44,13 @@ O FinMind é um controle financeiro inteligente. Você digita uma frase em lingu
 🛠 Tecnologias utilizadas
 
 Tecnologia     Uso 
+
 Next.js 14     Framework React com App Router e API Routes 
+
 React          Interface do usuário com hooks (useState, useEffect)
+
 Supabase       Banco de dados PostgreSQL na nuvem 
+
 Groq+LLaMA 3.1 IA para extração e categorização de transações
+
 CSS Modules    Estilização com escopo isolado por componente

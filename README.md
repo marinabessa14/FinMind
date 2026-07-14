@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+💸 FinMind — Controle Financeiro Inteligente
 
-## Getting Started
 
-First, run the development server:
+Aplicação full-stack que usa Inteligência Artificial para categorizar transações financeiras e calcular seu saldo automaticamente.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+___________________________________________________________________________________________________________________________________________
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🎯 Sobre o projeto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+O FinMind é um controle financeiro inteligente. Você digita uma frase em linguagem natural e a IA extrai automaticamente:
 
-## Learn More
+- A categoria (Alimentação, Transporte, Saúde, Lazer, etc.);
+  
+- O valor da transação;
+  
+- Se é um gasto ou receita;
+  
+- Uma descrição resumida;
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  Tudo salvo em banco de dados real na nuvem, com saldo calculado em tempo real.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+  ___________________________________________________________________________________________________________________________________________________
 
-## Deploy on Vercel
+  ✨Funcionalidades
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 💬 Adicionar transações em linguagem natural;
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- 🤖 Categorização automática por IA;
+
+- 📊 Cards de resumo com total de gastos, receitas e saldo;
+
+- 🔍 Filtrar transações por categoria;
+
+- 🗑 Deletar transações;
+
+- 💾 Dados persistidos em banco de dados na nuvem;
+
+- 📱 Layout responsivo para mobile;
+
+ ________________________________________________________________________________________________________________________________________________________
+
+🛠 Tecnologias utilizadas
+
+Tecnologia     Uso 
+Next.js 14     Framework React com App Router e API Routes 
+React          Interface do usuário com hooks (useState, useEffect)
+Supabase       Banco de dados PostgreSQL na nuvem 
+Groq+LLaMA 3.1 IA para extração e categorização de transações
+CSS Modules    Estilização com escopo isolado por componente
